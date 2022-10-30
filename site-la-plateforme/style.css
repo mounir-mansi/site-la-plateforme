@@ -1,0 +1,366 @@
+.body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+    
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;  
+    align-items: center;
+}
+.header.div{
+    object-position: left top;
+    background-size: 6.25em;
+}
+
+ul{
+    display: flex; 
+    font-size: large;
+    align-items: center;
+    list-style-type: none;   
+  
+}
+
+#loupe{
+    width: 9%;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    size: 100%;
+    padding-left: 5%;
+    padding-right: 10%;
+    align-items: center;
+    background-color: rgb(51, 102, 153);
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color :#fff
+}
+p{
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+    font-size: x-large;
+}
+.styled {
+    border: 0;
+    padding: 3%;
+    line-height: 2.5;
+    font-size: xx-large;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 100px;
+    background-color: rgb(253, 67, 67);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+h1{
+    background-image: url(1.webp);
+
+    background-size: 900px;
+    background-repeat: no-repeat;
+}
+
+.metier{
+    display: flex;
+    font-size: xx-large;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(243, 243, 250) ;
+    color: rgb(51, 102, 153);
+}
+
+.metier2{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    flex-direction: row;    
+}
+
+
+.colonne1{
+    display: flex;
+    padding: 2%;
+    padding-right: 2%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    background-color: white;
+}
+img{
+    width : auto;
+    height : 30%;
+}
+
+.colonne2{
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    background-color: white;
+}
+
+.colonne3{
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width : 30%;
+    background-color: white;
+}
+.colonne4{
+    display: flex;
+    background-color:rgb(243, 243, 250) ;
+    width: 5%;
+}
+
+.colonne5{
+    display: flex;
+    background-color:rgb(243, 243, 250) ;
+    width: 5%;
+}
+
+.bn62 {
+    color: white;
+    background-color: rgb(255, 202, 75);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6em;
+    width: 16em;
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* transfo numerique*/
+  .transfonum{
+    display: flex;
+    font-size: xx-large;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(243, 243, 250) ;
+    color: rgb(51, 102, 153);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.recruter{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 2%;
+}
+.former{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.accelerer{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.button4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.button5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.button6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.p10{
+    display: flex;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.p9{
+    display: flex;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.p8{
+    display: flex;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+
+/* ils temoignent*/
+.ilstemoignent{
+    display: flex;
+    padding: 2%;
+    background-color:rgb(245, 163, 21) ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+
+.video{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+.v1{
+    display: flex;
+    background-size: 100px;
+}
+.h11{
+    display: flex;
+    font-size: 4em;
+}
+
+.p11{
+    display: flex;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.colonne11{
+    display: flex;
+    width: 8%;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    size: 100%;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #313131;
+    color: white;
+}
+
+.icones{
+    display: flex;
+    padding-right: 10%;
+    flex-direction: column;
+    width: 20%;
+}
+.icones2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    width: 100%;
+}
+.colonne41{
+    display: flex;
+    background-color:rgb(243, 243, 250) ;
+    height: 10%;
+}
+.laplateforme{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 2.5em;
+    padding-left: 5%;
+   
+}
+.lesformations{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 2.5em;
+  
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 2.5em;
+    align-items: flex-start;
+}
+
+#plateforme{
+    height: 6em;
+    width: 30em;
+}
+
+#april{
+    height: 20%;
+    width: auto;
+}
+
+#fb{
+    height: 25%;
+    width: auto;
+}
+
+.bn15 {
+    font-family: lato,sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+  }
+
+  h2{
+    font-size: 3em;
+  }
+  #metier{
+    height: 7em;
+    width: auto;
+  }
